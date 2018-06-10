@@ -133,6 +133,9 @@ class JSONParserKotlinActivity : AppCompatActivity() {
 
                     Lv_developers.adapter = simpleAdapter
 
+                    Lv_developers.setOnItemClickListener { parent, view, position, id ->
+                        Toast.makeText(applicationContext, "Selected item is " + position, Toast.LENGTH_SHORT).show()
+                    }
 
                 } else {
                     Toast.makeText(applicationContext, "No developers found!", Toast.LENGTH_SHORT).show()
