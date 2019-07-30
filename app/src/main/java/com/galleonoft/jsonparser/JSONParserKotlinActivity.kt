@@ -30,7 +30,7 @@ class JSONParserKotlinActivity : AppCompatActivity() {
 
 
     companion object {
-        var GetPostJSONApi = "http://galleonsoft.com/api-demo/json-rest-api-example.php"
+        var GetPostJSONApi = "http://apps.galleonsoft.com/api-example/json-rest-api-example.php"
     }
 
     // Show BackButton on Actionbar
